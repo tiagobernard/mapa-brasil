@@ -1,1 +1,40 @@
+#svg-map #destaque {
+    fill: #007db3;
+}
 
+#svg-map .circle-destaque {
+    fill: #005980;
+}
+
+#svg-map path {
+    fill: #203369;
+}
+
+#svg-map text {
+    fill: #fff;
+    font-size: 12px;
+    /*font:12px Arial-BoldMT, sans-serif;cursor:pointer*/
+}
+
+#svg-map a {
+    text-decoration: none;
+    cursor: default;
+}
+
+#svg-map a:hover {
+    cursor: pointer;
+    text-decoration: none
+}
+
+#svg-map a:hover path {
+    fill: #003399 !important
+}
+
+#svg-map .circle {
+    fill: #182a49
+}
+
+#svg-map a:hover .circle {
+    fill: #003399 !important;
+    cursor: pointer
+}
